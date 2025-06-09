@@ -52,6 +52,9 @@ a{
 
 /*GRANDEZZE HEIGHT*/
 
+.height-header-footer{
+    height: 50%;
+}
 
 .height-300px{
     height: 300px;
@@ -65,6 +68,10 @@ a{
     height: 600px;
 }
 
+.height-60per{
+    height:60%
+}
+
 .height-80per{
     height:80%
 }
@@ -74,6 +81,8 @@ a{
 }
 
 /*GRANDEZZE WIDTH*/
+
+
 .width-60per{
     width: 60%;
 }
@@ -106,6 +115,11 @@ a{
     align-items: center;
 }
 
+/*space-between*/
+.space-between{
+    justify-content: space-between;
+}
+
 /*                       HEADER                           */
 
 header{
@@ -113,17 +127,10 @@ header{
     justify-content: center;
 }
 
-/*MENU*/
-
-.menu{
-    
-    height: 50%;
-}
 
 /*CONTENUTO DEL MENU*/
 
 .logo{
-    justify-content: flex-start;
     border: 2px solid black;
     width: 20%;
     height: 100%;
@@ -135,7 +142,6 @@ header{
     border: 2px solid black;
     width: 60%;
     height: 100%;
-    text-align: center;
 }
 
 .login{
@@ -143,7 +149,6 @@ header{
     border: 2px solid black;
     width: 20%;
     height: 100%;
-    text-align: end;
 }
 
 /*distacco tra i link*/
@@ -181,4 +186,26 @@ div .margin-5{
     background-color: rgb(236, 120, 120);
     width: 20%;
     border: 2px dotted;
+}
+
+/*                        FOOTER                            */
+
+.zonaFooter{
+    height: 65px;
+    justify-content: center;
+    background-color: rgb(54, 50, 50);
+}
+
+/*posizionamento logo + bottone*/
+
+div button{
+    min-width: 50px;
+    height: 60%;
+    justify-items: flex-end;
+}
+
+/*effetto bottone cursore*/
+
+.bottone{
+    cursor: pointer;
 }
