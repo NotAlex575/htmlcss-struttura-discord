@@ -56,6 +56,9 @@ a{
 }
 
 /*GRANDEZZE WIDTH*/
+.width-60per{
+    width: 60%;
+}
 
 .width-80per{
     width: 80%;
@@ -95,7 +98,7 @@ header{
 /*MENU*/
 
 .menu{
-    max-width: 800px;
+    
     height: 50%;
 }
 
