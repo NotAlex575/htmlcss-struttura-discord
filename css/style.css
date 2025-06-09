@@ -4,40 +4,65 @@
     box-sizing: border-box;
 }
 
+/*LINK SENZA DECORAZIONE*/
+
 a{
     text-decoration: none;
 }
 
-.flex{
-    display: flex;
-}
-
-header{
-    height: 65px;
-    align-items: center;
-}
-
+/*BACKGROUND COLOR*/
 
 .bg-orange{
     background-color: orange;
 }
-
 .bg-aqua{
-    background-color: aqua;
+    background-color: rgb(169, 250, 250);
 }
 
-.menu{
-    width: 100%;
+/*GRANDEZZE WIDTH*/
+
+.width-80{
+    width: 80%;
+}
+
+/*FLEX*/
+.flex{
+    display: flex;
+}
+
+/*ALIGN-ITEMS: CENTER*/
+.align-items-center{
+    justify-content: center;
     align-items: center;
 }
 
+/*HEADER*/
+
+header{
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*MENU*/
+
+.menu{
+    max-width: 800px;
+    height: 50%;
+}
+
+/*CONTENUTO DEL MENU*/
+
 .logo{
+    justify-content: flex-start;
     border: 2px solid black;
     width: 20%;
     height: 100%;
+    text-align: start;
 }
 
 .link{
+    justify-content: center;
     border: 2px solid black;
     width: 60%;
     height: 100%;
@@ -45,8 +70,25 @@ header{
 }
 
 .login{
+    justify-content: flex-end;
     border: 2px solid black;
     width: 20%;
     height: 100%;
     text-align: end;
 }
+
+/*distacco tra i link*/
+
+.link a{
+    margin: 5px;
+}
+
+/*distacco per logo e link*/
+
+div .margin-5{
+    margin: 10px;
+}
+
+
+
+
