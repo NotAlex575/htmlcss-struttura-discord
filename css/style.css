@@ -15,16 +15,9 @@ a{
 .bg-orange{
     background-color: orange;
 }
-.bg-aqua{
-    background-color: rgb(169, 250, 250);
-}
 
 .bg-blue{
     background-color: rgb(2, 2, 180);
-}
-
-.bg-pink{
-    background-color: pink;
 }
 
 .bg-green{
@@ -39,7 +32,13 @@ a{
     background-color: rgb(3, 163, 163);
 }
 
+.bg-aqua{
+    background-color: rgb(169, 250, 250);
+}
 
+.bg-lightgray{
+    background-color: lightgray;
+}
 
 /*GRANDEZZE HEIGHT*/
 
@@ -58,11 +57,11 @@ a{
 
 /*GRANDEZZE WIDTH*/
 
-.width-80{
+.width-80per{
     width: 80%;
 }
 
-.width-100{
+.width-100per{
     width: 100%;
 }
 /*FLEX*/
@@ -141,3 +140,12 @@ div .margin-5{
 
 /*                        MAIN                            */
 
+.rettangoloBlu{
+    background-color: rgb(26, 131, 222);
+    width: 50%;
+}
+
+.rettangoloPink{
+    background-color: pink;
+    width: 30%;
+}
