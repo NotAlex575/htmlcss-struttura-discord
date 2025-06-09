@@ -51,8 +51,16 @@ a{
     height: 400px;
 }
 
+.height-600px{
+    height: 600px;
+}
+
 .height-80per{
     height:80%
+}
+
+.height-90per{
+    height:90%
 }
 
 /*GRANDEZZE WIDTH*/
