@@ -10,6 +10,12 @@ a{
     text-decoration: none;
 }
 
+/*BORDER TRATTEGGIATO*/
+
+.borderdotted{
+    border: 2px dotted;
+}
+
 /*BACKGROUND COLOR*/
 
 .bg-orange{
@@ -38,6 +44,10 @@ a{
 
 .bg-lightgray{
     background-color: lightgray;
+}
+
+.bg-lightblack{
+    background-color: rgb(54, 50, 50);
 }
 
 /*GRANDEZZE HEIGHT*/
@@ -159,4 +169,16 @@ div .margin-5{
 .rettangoloPink{
     background-color: pink;
     width: 30%;
+}
+
+.miniRettangoloAqua{
+    background-color: aqua;
+    width: 10%;
+    border: 2px dotted;
+}
+
+.mediumRettangoloSalmone{
+    background-color: rgb(236, 120, 120);
+    width: 20%;
+    border: 2px dotted;
 }
