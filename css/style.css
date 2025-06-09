@@ -19,12 +19,52 @@ a{
     background-color: rgb(169, 250, 250);
 }
 
+.bg-blue{
+    background-color: rgb(2, 2, 180);
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-pinkstrong{
+    background-color: rgb(146, 66, 98);
+}
+
+.bg-aquastrong{
+    background-color: rgb(3, 163, 163);
+}
+
+
+
+/*GRANDEZZE HEIGHT*/
+
+
+.height-300px{
+    height: 300px;
+}
+
+.height-400px{
+    height: 400px;
+}
+
+.height-80per{
+    height:80%
+}
+
 /*GRANDEZZE WIDTH*/
 
 .width-80{
     width: 80%;
 }
 
+.width-100{
+    width: 100%;
+}
 /*FLEX*/
 .flex{
     display: flex;
@@ -32,16 +72,25 @@ a{
 
 /*ALIGN-ITEMS: CENTER*/
 .align-items-center{
+    align-items: center;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+/*both*/
+
+.justify-and-align-center{
     justify-content: center;
     align-items: center;
 }
 
-/*HEADER*/
+/*                       HEADER                           */
 
 header{
     height: 65px;
     justify-content: center;
-    align-items: center;
 }
 
 /*MENU*/
@@ -90,5 +139,5 @@ div .margin-5{
 }
 
 
-
+/*                        MAIN                            */
 
